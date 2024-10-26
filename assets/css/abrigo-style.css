@@ -1,0 +1,102 @@
+@import url('../css/global.css');
+@import url('../css/menu.css');
+
+
+section {
+    padding-top: 5.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 3.2rem;
+
+}
+
+.title {
+    display: flex; 
+    align-items: center;
+    text-transform: uppercase;
+    gap: 1rem;
+    padding-bottom: 3.2rem;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.card {
+background-color: var(--secondary-color);
+width: 14.5rem;
+height: 13.2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 1rem;
+border-top: 15px solid var(--primary-color);
+transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+transform: scale(1.2);
+}
+
+.card p{
+    text-align: center;
+    transition: color 0.8s;
+}
+
+.card p:hover{
+    color: var( --button-primary-color)
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 4rem;
+  }
+  
+  footer .box-footer {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+  }
+  
+  footer .box-footer p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: red;
+  }
+  
+  footer .fale-conosco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 11%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+  }
+  
+  footer .div-img {
+    width: 12%;
+  }
+  
+  footer .fale-conosco img {
+    width: 100%;
+  }
+  
+  footer .fale-conosco button {
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--button-primary-color);
+    background-color: white;
+  }

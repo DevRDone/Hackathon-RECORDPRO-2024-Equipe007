@@ -1,0 +1,172 @@
+body {
+
+}
+
+header {
+  background-image: url(assets/images/ajude-rs.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.70);
+  height: 75vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  
+}
+.header1 {
+  text-align: left;
+  font-size: 3.5vh;
+  width: 15%;
+  color: white;
+  filter: brightness(1);
+
+<<<<<<< HEAD
+}
+.header2 {
+  text-align: left;
+  font-size: 3.5vh;
+  width: 30%;
+  color: white;
+  margin-left: 10rem;
+  
+}
+  
+.bg-img {
+  background-image: url(assets/images/ajude-rs.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.1);
+
+  position: relative;
+}
+
+hr {
+}
+
+.h4-bg {
+  position: absolute;
+  font-size: 4rem;
+  color: rgb(255, 0, 0);
+  
+  top: 40%;
+  left: 10%;
+
+}
+
+=======
+>>>>>>> ca68bd5b28cf7a3006ccffdb917fbb5f282608fc
+.btn-header {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+section .box-all {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+section .div-color {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 30px;
+  border-radius: 8px 8px 0 0 ;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+section .box1, .box2, .box3{
+  background-color: var(--secondary-color);
+  width: 400px;
+  height: 250px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+section .box1:hover, .box2:hover, .box3:hover{
+  scale: 1.07;
+  transition: 0.3s;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+section .box1, .box2, .box3 > h4 {
+  font-size: 2rem;
+}
+
+section  .btn-section-1 {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: var(--primary-color);
+}
+
+section  .btn-section-1 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 4rem;
+}
+
+footer .box-footer {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+}
+
+footer .box-footer p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: red;
+}
+
+footer .fale-conosco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 11%;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0.9rem;
+  padding: 0.5rem;
+}
+
+footer .div-img {
+  width: 12%;
+}
+
+footer .fale-conosco img {
+  width: 100%;
+}
+
+footer .fale-conosco button {
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--button-primary-color);
+  background-color: white;
+}
