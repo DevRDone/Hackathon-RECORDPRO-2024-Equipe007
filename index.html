@@ -7,23 +7,40 @@
   <title>Início</title>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
 </head>
-  <header>
-    <div class="header1"> 2024, o Rio Grande do Sul enfrentou uma das piores enchentes da sua história, que resultou em uma tragédia
-    humanitária sem precedentes. </div>
-    
-    <div class="header2">As chuvas intensas e contínuas causaram transbordamentos em diversos rios, inundando
-    cidades inteiras e devastando comunidades. Estimativas iniciais apontam para mais de 200 óbitos, com centenas de
-    pessoas desaparecidas.</div>
-  </header>
+<header>
+  <nav class="nav">
+      <div class="logo">
+          <img src="assets/images/bandeira.png" alt="Bandeira Rio Grande do Sul">
+          <a href="/">
+              <h2>Início</h2>
+          </a>
+      </div>
+
+      <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+
+      <ul class="links">
+          <li><a href="assets/pages/abrigo.html" class="line">Abrigos</a></li>
+          <li><a href="assets/pages/monitoramento.html" class="line">Monitoramento</a></li>
+          <li><a href="#" class="line">Quero Ajudar</a></li>
+          <li><a href="#" class="doe-aqui">Doe Aqui!</a></li>
+      </ul>
+  </nav>
+</header>
+<div class="header-img"></div>
   <section>
     <div class="box-all">
-      
+
       <div class="box1">
         <div class="div-color"></div>
         <h4>ABRIGOS</h4>
         <button class="btn-section-1">
-          <a href="#">SAIBA MAIS</a>
+          <a href="assets/pages/abrigo.html">SAIBA MAIS</a>
         </button>
       </div>
 
@@ -31,7 +48,7 @@
         <div class="div-color"></div>
         <h4>MONITORAMENTE</h4>
         <button class="btn-section-1">
-          <a href="#">SAIBA MAIS</a>
+          <a href="assets/pages/monitoramento.html">SAIBA MAIS</a>
         </button>
       </div>
 
@@ -66,6 +83,7 @@
       <button>Fale Conosco</button>
     </div>
   </footer>
+  <script src="assets/scripts/mobile-menu.js"></script>
 </body>
 
 </html>

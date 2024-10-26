@@ -2,69 +2,17 @@ body {
 
 }
 
-header {
+.header-img{
   background-image: url(assets/images/ajude-rs.png);
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: brightness(0.70);
   height: 75vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  
-}
-.header1 {
-  text-align: left;
-  font-size: 3.5vh;
-  width: 15%;
-  color: white;
-  filter: brightness(1);
-
-<<<<<<< HEAD
-}
-.header2 {
-  text-align: left;
-  font-size: 3.5vh;
-  width: 30%;
-  color: white;
-  margin-left: 10rem;
-  
-}
-  
-.bg-img {
-  background-image: url(assets/images/ajude-rs.png);
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.1);
-
-  position: relative;
-}
-
-hr {
-}
-
-.h4-bg {
-  position: absolute;
-  font-size: 4rem;
-  color: rgb(255, 0, 0);
-  
-  top: 40%;
-  left: 10%;
-
-}
-
-=======
->>>>>>> ca68bd5b28cf7a3006ccffdb917fbb5f282608fc
-.btn-header {
-  outline: none;
-  border: none;
-  padding: 1rem;
-  border-radius: 0.5rem;
 }
 
 section .box-all {
@@ -73,6 +21,7 @@ section .box-all {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin: 5rem 0;
 }
 
 section .div-color {
