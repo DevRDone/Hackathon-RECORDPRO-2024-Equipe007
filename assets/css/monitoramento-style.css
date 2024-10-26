@@ -1,76 +1,112 @@
 @import url('../css/global.css');
 @import url('../css/menu.css');
+@import url('../../index.css');
 
 
 .box-size {
     width: 100px;
     height: 100px;
     border: 1px solid red;
-
     margin-top: 200px;
     margin-left: 500px;
-
-
+    
     padding: 50px;
 }
 
 .container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
 }
 
-.image {
-    width: 100x;
+.container > img {
+    margin-top: 2rem;
+    width: 100px;
     height: 100px;
     object-fit: cover;
 }
 
+.div-main {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Seção dos Radares */
+.radar-flex {
+    display: flex;
+    justify-content: space-between;    
+    align-items: start;
+}
+
+.news {
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+}
+
 .radar-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* 3 colunas */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-items: center;
-    margin: 20px;
+    padding: 0 1rem;
 }
 
 .radar {
-    text-align: center;
 }
 
-.radar img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
+.radar > img {
+    width: 400px;
+    border-radius: 4px;
 }
 
 /* Seção de Notícias */
 .news-header{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2rem;
 }
 
 .new-icon {
-    width: 40px;
-    height: 40px;
+    max-width: 100px;
+    width: 100%;
 }
 
 .news.image {
-
+    border: solid 2px ye;
 }
 
 .news-content {
     font-size: x-large;
 }
 
+.news-content h2 {
+    width: 60%;
+}
+
+.news-content img {
+    width: 60%;
+}
+
+.news-content p {
+    width: 55%;
+}
+
 /* Barra de pesquisa e colunas de notícias adicionais */
-.sidebar {
+.div-main .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 4rem;
+
+    max-width: 300px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 10rem 0 0 ;
+}
+.siderbar-news {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
 }
 
 .search-bar {
@@ -79,11 +115,23 @@
     border: 1px;
     border-radius: 5px;
     font-size: 1rem;
+    border: solid 1px var(--secondary-color);
 }
 
 .additional-news {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100px;
     background-color: #e0e0e0;
     border-radius: 5px;
+}
+
+.additional-news img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.additional-news a {
+
 }
