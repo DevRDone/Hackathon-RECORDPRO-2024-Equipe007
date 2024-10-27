@@ -52,9 +52,6 @@
     padding: 0 1rem;
 }
 
-.radar {
-}
-
 .radar > img {
     width: 400px;
     border-radius: 4px;
@@ -130,8 +127,4 @@
 .additional-news img {
     width: 100%;
     border-radius: 4px;
-}
-
-.additional-news a {
-
 }
