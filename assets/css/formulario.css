@@ -1,0 +1,158 @@
+/* Importando estilos globais */
+@import url('../css/global.css');
+@import url('../css/menu.css');
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-volunteer-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.form-container {
+    flex: 1;
+}
+
+.volunteer-info {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+    text-align: center; /* Centraliza o texto */
+}
+
+.volunteer-info h2 {
+    font-size: 2em;
+    color: #333; /* Cor mais vibrante para dar ênfase */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Outros estilos do formulário */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.form-container h2 {
+    font-size: 1.8em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #004d40;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #004d40;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.form-group button {
+    padding: 15px;
+    background-color: #e0d1d1;
+    color: #524e4e;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group button:hover {
+    background-color: #118143;
+}
+
+.support-image {
+    max-width: 150px; /* Define um tamanho menor para a imagem */
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 4rem;
+  }
+  
+  footer .box-footer {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+  }
+  
+  footer .box-footer p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: red;
+  }
+  
+  footer .fale-conosco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 11%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+  }
+  
+  footer .div-img {
+    width: 12%;
+  }
+  
+  footer .fale-conosco img {
+    width: 100%;
+  }
+  
+  footer .fale-conosco button {
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--button-primary-color);
+    background-color: white;
+  }
+
+@media (max-width: 800px){
+    .form-volunteer-container{
+        flex-direction: column-reverse;
+
+    
+    }
+    
+}

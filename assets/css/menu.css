@@ -81,12 +81,16 @@ nav {
         right: 0;
         width: 50vw;
         height: 100vh;
-        background: #23232e;
+        background: rgba(35, 35, 46, 0.8);
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
         z-index: 0;
+    }
+
+    .line{
+        color: var(--secondary-color)
     }
 
     .mobile-menu {
