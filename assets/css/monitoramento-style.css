@@ -3,13 +3,18 @@
 @import url('../../index.css');
 
 
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .box-size {
     width: 100px;
     height: 100px;
     border: 1px solid red;
     margin-top: 200px;
     margin-left: 500px;
-    
+
     padding: 50px;
 }
 
@@ -21,7 +26,7 @@
     gap: 2rem;
 }
 
-.container > img {
+.container>img {
     margin-top: 2rem;
     width: 100px;
     height: 100px;
@@ -36,7 +41,7 @@
 /* Seção dos Radares */
 .radar-flex {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     align-items: start;
 }
 
@@ -52,16 +57,21 @@
     padding: 0 1rem;
 }
 
-.radar > img {
+.radar-section img {
+    height: 70%;
+}
+
+.radar>img {
     width: 400px;
     border-radius: 4px;
 }
 
 /* Seção de Notícias */
-.news-header{
+.news-header {
     display: flex;
     align-items: center;
     gap: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .new-icon {
@@ -69,20 +79,19 @@
     width: 100%;
 }
 
-.news.image {
-    border: solid 2px ye;
-}
 
-.news-content {
+/* .news-content {
     font-size: x-large;
-}
+} */
 
 .news-content h2 {
     width: 60%;
+    padding-bottom: 0.5rem;
 }
 
 .news-content img {
     width: 60%;
+    border-radius: 1rem;
 }
 
 .news-content p {
@@ -98,8 +107,8 @@
     max-width: 300px;
     width: 100%;
     padding: 0 2rem;
-    margin: 0 10rem 0 0 ;
 }
+
 .siderbar-news {
     display: flex;
     flex-direction: column;
@@ -128,3 +137,5 @@
     width: 100%;
     border-radius: 4px;
 }
+
+.volunteer-info {}
